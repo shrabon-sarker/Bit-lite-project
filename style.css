@@ -1,0 +1,223 @@
+/*===================================
+				About
+   =================================== */
+
+/*
+    Theme Name: Yebo-bicycle-theme
+    Theme URI: http://bicycle.com
+    Author: shrabon
+    Author URI: http://shrabon.com
+    Description: this is yebo bicycle theme is best theme all .
+    Tags: One page, multi page, multipurpose, creative, html5, css3, javacript.
+
+ */
+
+/* ===================================
+          Table of Contents
+   =================================== */
+
+/*
+	01. Typography
+	02. Header section
+	03. info section
+	04. gellary section
+	05. tittwer section
+	06. service section
+	07. discover section
+    08. contact section
+    09. footer section
+ */
+
+/*Table Of Contents ends */
+
+/*Global Styling*/
+
+/*=====================================
+				Typography
+=========================================*/
+
+body {
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+/*=====================================
+	 header section wordking starts			
+=========================================*/
+
+.header-section {
+}
+.menu ul li {
+  padding: 10px 12px;
+}
+.menu ul li .nav-link {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 7px 20px;
+  font-weight: 700;
+  transition: 0.5s;
+  border-top: 2px solid transparent;
+}
+
+.menu ul li .nav-link:hover {
+  color: #2aacc8;
+  border-top: 2px solid #2aacc8;
+}
+
+/*=====================================
+	 slider section wordking starts			
+=========================================*/
+
+.slider-section img {
+  width: 100%;
+}
+
+.service-section {
+  background: #e8ebf1;
+  padding: 100px 0;
+}
+
+.service .icons {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  background: #2aacc8;
+  color: #fff;
+  border-radius: 50%;
+  padding: 15px;
+
+  text-align: center;
+}
+
+.service h3 {
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.service p {
+  color: #939497;
+}
+
+/*=====================================
+	 corsola section wordking starts			
+=========================================*/
+.crosoal-slid {
+  padding: 20px 0;
+}
+
+.crosoal h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.ri-lf a {
+  font-size: 20px;
+  color: #2aacc8;
+}
+
+.divader {
+  border-bottom: 1px solid #dfe1e5;
+}
+
+.image-head {
+  position: relative;
+  overflow: hidden;
+}
+.image-head img {
+  width: 100%;
+}
+
+.caption-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.caption-text a {
+  color: #fff;
+  font-size: 20px;
+  padding: 5px;
+  float: left;
+}
+
+.image-head:hover .caption-text {
+  opacity: 1;
+  background: rgba(52, 152, 219, 0.8);
+}
+
+/*=====================================
+	 testmonials section wordking starts			
+=========================================*/
+.testmonials-section {
+  padding: 40px 0;
+}
+.testmonials h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.testmonials i {
+  color: #2aacc8;
+}
+
+.testmonials h5 {
+  font-size: 16px;
+}
+
+.testmonials p {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.7em;
+}
+
+/*=====================================
+	 downloads section wordking starts			
+=========================================*/
+
+.dwonload-section {
+  padding: 40px 0;
+}
+
+.border-border {
+  border: 1px solid #2aacc8;
+  padding: 20px;
+  background: #e8fcfe;
+}
+.border-border {
+  font-size: 16px;
+  line-height: 1.7em;
+  color: #757d7e;
+}
+
+.border-border a {
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.footer-section {
+  background: #e8ebf1;
+  padding: 20px 0;
+}
+
+@media all and (max-width: 768px) {
+  .service {
+    margin-bottom: 30px;
+  }
+  .service h3 {
+    color: #2aacc8;
+  }
+
+  .image-head {
+    margin-bottom: 30px;
+  }
+}
